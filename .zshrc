@@ -1,6 +1,6 @@
 # wireguard
-alias wgup="sudo wg-quick up us144"
-alias wgdn="sudo wg-quick down us144"
+alias wgup="sudo wg-quick up us142"
+alias wgdn="sudo wg-quick down us142"
 
 # navigation aliases
 alias www="cd ~/www/"
