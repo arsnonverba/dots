@@ -11,4 +11,4 @@ alias ux="cd ~/ux/"
 alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 
 #add cargo bin to path
-export PATH="~/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
