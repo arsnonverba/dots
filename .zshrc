@@ -12,7 +12,7 @@ alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 
 #alias for git sites
 #meow
-alias meow='/usr/bin/git --git-dir=$HOME/www/meow/.github/ --work-tree=$HOME/www/meow/'
+alias meow='/usr/bin/git --git-dir=$HOME/www/meow/.git/ --work-tree=$HOME/www/meow/'
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"
