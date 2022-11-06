@@ -71,6 +71,7 @@ colorscheme catppuccin_macchiato
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['eslint', 'prettier'],
+\   'typescript': ['eslint', 'prettier'],
 \}
 
 let g:ale_fix_on_save = 1
