@@ -20,7 +20,7 @@ set number
 set shiftwidth=4
 
 " set tab width to 4 columns.
-set tabstop=4
+set tabstop=2
 
 " use space characters instead of tabs.
 set expandtab
@@ -62,6 +62,9 @@ set termguicolors
 
 " hide insert status
 set noshowmode
+
+" fix issue with syntax highlighting
+set re=0
 
 " default colorscheme
 colorscheme catppuccin_macchiato
