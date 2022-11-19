@@ -2,7 +2,7 @@
 alias wgup="sudo wg-quick up us190"
 alias wgdn="sudo wg-quick down us190"
 alias wgupsapporo="sudo wg-quick up wg0"
-alias wgdsapporo="sudo wg-quick down wg0"
+alias wgdnsapporo="sudo wg-quick down wg0"
 
 
 # navigation aliases
