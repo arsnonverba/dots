@@ -1,6 +1,6 @@
 # wireguard
-alias wgup="sudo wg-quick up us190"
-alias wgdn="sudo wg-quick down us190"
+alias wgup="sudo wg-quick up us149"
+alias wgdn="sudo wg-quick down us149"
 alias wgupsapporo="sudo wg-quick up wg0"
 alias wgdnsapporo="sudo wg-quick down wg0"
 
