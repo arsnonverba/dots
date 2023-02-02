@@ -10,7 +10,7 @@ alias www="cd ~/www/"
 alias art="cd ~/art/"
 alias ux="cd ~/ux/"
 
-# alies fot git dotfiles
+# alias fot git dotfiles
 alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 
 #alias for git sites
