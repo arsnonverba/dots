@@ -1,8 +1,8 @@
 # wireguard
-alias wgup="sudo wg-quick up us149"
-alias wgdn="sudo wg-quick down us149"
-alias wgupsapporo="sudo wg-quick up wg0"
-alias wgdnsapporo="sudo wg-quick down wg0"
+alias wgup="sudo wg-quick up /etc/wireguard/us149.conf"
+alias wgdn="sudo wg-quick down /etc/wireguard/us149.conf"
+alias wgup0="sudo wg-quick up /etc/wireguard/wg0"
+alias wgdn0="sudo wg-quick down /etc/wireguard/wg0"
 
 
 # navigation aliases
@@ -16,6 +16,8 @@ alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 #alias for git sites
 #meow
 alias meow='/usr/bin/git --git-dir=$HOME/www/meow/.git/ --work-tree=$HOME/www/meow/'
+#metamural
+alias meta='/usr/bin/git --git-dir=$HOME/www/nftmarketplace/.git/ --work-tree=$HOME/www/nftmarketplace/'
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"
