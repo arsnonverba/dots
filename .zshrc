@@ -1,8 +1,8 @@
 # wireguard
 alias wgup="sudo wg-quick up /etc/wireguard/us149.conf"
 alias wgdn="sudo wg-quick down /etc/wireguard/us149.conf"
-alias wgups="sudo wg-quick up /etc/wireguard/wg0"
-alias wgdns="sudo wg-quick down /etc/wireguard/wg0"
+alias wgups="sudo wg-quick up /etc/wireguard/wg0.conf"
+alias wgdns="sudo wg-quick down /etc/wireguard/wg0.conf"
 
 
 # navigation aliases
