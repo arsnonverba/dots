@@ -18,6 +18,8 @@ alias dots='/usr/bin/git --git-dir=$HOME/.dots/ --work-tree=$HOME'
 alias meow='/usr/bin/git --git-dir=$HOME/www/meow/.git/ --work-tree=$HOME/www/meow/'
 #metamural
 alias meta='/usr/bin/git --git-dir=$HOME/www/nftmarketplace/.git/ --work-tree=$HOME/www/nftmarketplace/'
+#elprincipio
+alias prin='/usr/bin/git --git-dir=$HOME/www/elprincipio/.git/ --work-tree=$HOME/www/elprincipio/'
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"
