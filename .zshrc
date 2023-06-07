@@ -20,9 +20,10 @@ alias meow='/usr/bin/git --git-dir=$HOME/www/meow/.git/ --work-tree=$HOME/www/me
 alias meta='/usr/bin/git --git-dir=$HOME/www/nftmarketplace/.git/ --work-tree=$HOME/www/nftmarketplace/'
 #elprincipio
 alias prin='/usr/bin/git --git-dir=$HOME/www/elprincipio/.git/ --work-tree=$HOME/www/elprincipio/'
-#elprincipio
+#shop
 alias shop='/usr/bin/git --git-dir=$HOME/www/shop/.git/ --work-tree=$HOME/www/shop/'
-
+#rysm
+alias rysm='/usr/bin/git --git-dir=$HOME/www/rysm/.git/ --work-tree=$HOME/www/rysm/'
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"

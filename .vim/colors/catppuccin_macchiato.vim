@@ -40,8 +40,8 @@ set cursorline
 " mantle = "#1E2030"
 " crust = "#181926"
 
-hi Normal           guisp=NONE      guifg=#CAD3F5   guibg=#24273A   ctermfg=254     ctermbg=NONE  gui=NONE           cterm=NONE
-hi Visual           guisp=NONE      guifg=NONE      guibg=#494D64   ctermfg=NONE    ctermbg=NONE  gui=bold           cterm=bold
+hi Normal           guisp=NONE      guifg=#CAD3F5   guibg=NONE   ctermfg=254     ctermbg=NONE  gui=NONE           cterm=NONE
+hi Visual           guisp=NONE      guifg=NONE      guibg=NONE   ctermfg=NONE    ctermbg=NONE  gui=bold           cterm=bold
 
 hi Conceal          guisp=NONE      guifg=#8087A2   guibg=NONE      ctermfg=246     ctermbg=NONE gui=NONE           cterm=NONE
 hi ColorColumn      guisp=NONE      guifg=NONE      guibg=#363A4F   ctermfg=NONE    ctermbg=236  gui=NONE           cterm=NONE
