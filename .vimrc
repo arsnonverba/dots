@@ -71,8 +71,6 @@ set re=0
 
 " default colorscheme
 colorscheme catppuccin_macchiato
-highlight Normal ctermbg=NONE
-highlight nonText ctermbg=NONE
 
 " ALE --------------------------------------------------------------- {{{
 
@@ -173,8 +171,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'https://github.com/adelarsq/vim-matchit'
 
-Plug 'https://github.com/CoderCookE/vim-chatgpt'
-
 call plug#end()
 
 " }}}
@@ -221,15 +217,5 @@ augroup END
 
 " If the current file type is HTML, set indentation to 2 spaces.
 autocmd Filetype html setlocal tabstop=2 shiftwidth=2 expandtab
-
-" }}}
-"
-"
-" OPENAI -------------------------------------------------------------- {{{
-
-" api key
-let g:chat_gpt_key='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'
-let g:chat_gpt_max_tokens=2000
-let g:chat_gpt_model='gpt-3.5-turbo'
 
 " }}}
