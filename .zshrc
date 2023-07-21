@@ -1,9 +1,13 @@
+#color prompt
+PROMPT='%F{blue}%n%f@%F{cyan}%m%f %B%~%b %F{blue}%#%f '
 # wireguard
 alias wgup="sudo wg-quick up /etc/wireguard/us109.conf"
 alias wgdn="sudo wg-quick down /etc/wireguard/us109.conf"
 alias wgups="sudo wg-quick up /etc/wireguard/wg0.conf"
 alias wgdns="sudo wg-quick down /etc/wireguard/wg0.conf"
 
+#kitty terminal issues with ssh
+[ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
 
 # navigation aliases
 alias www="cd ~/www/"
@@ -27,3 +31,8 @@ alias rysm='/usr/bin/git --git-dir=$HOME/www/rysm/.git/ --work-tree=$HOME/www/ry
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"
+
+#add auto suggestions
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#add syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
