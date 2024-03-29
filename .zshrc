@@ -28,6 +28,12 @@ alias prin='/usr/bin/git --git-dir=$HOME/www/elprincipio/.git/ --work-tree=$HOME
 alias shop='/usr/bin/git --git-dir=$HOME/www/shop/.git/ --work-tree=$HOME/www/shop/'
 #rysm
 alias rysm='/usr/bin/git --git-dir=$HOME/www/rysm/.git/ --work-tree=$HOME/www/rysm/'
+#luisgl
+alias lgl='/usr/bin/git --git-dir=$HOME/www/luisgl/.git/ --work-tree=$HOME/www/luisgl/'
+#typhoo
+alias typh='/usr/bin/git --git-dir=$HOME/www/typhoo/.git/ --work-tree=$HOME/www/typhoo/'
+
+
 
 #add cargo bin to path
 export PATH="$HOME/.cargo/bin:$PATH"
